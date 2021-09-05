@@ -1,0 +1,86 @@
+body{
+    background-size: cover;
+}
+
+.hidden{
+    display: none;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city{
+    font-size: 100%;
+}
+
+.weather{
+    font-size: 120%;
+}
+
+#weather{
+    text-align: right;
+    color: white;
+}
+
+#clock{
+    color: white;
+    font-size: 720%;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+#name-input{
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+}
+
+#loginBtn{
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#greeting{
+    color: white;
+    font-size: 300%;
+    margin-top: 10px;
+}
+
+#quote{
+    color: white;
+    position: fixed;
+    bottom: 2rem;
+}
+
+#todo-list{
+    color: white;
+}
+
+#todo-input{
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 450px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+}
+
+.delButton{
+    border: none;
+    background-color: transparent;
+}
